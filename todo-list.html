@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application</title>
+    <link rel="stylesheet" href="todo-style.css">
+    
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>ToDo list<span id="count"></span></h1>
+        <div class="input-wrapper">
+            <input type="text" id="add-input" maxlength="30" placeholder="Ad a new task">
+            <button id="add-task">Add todo</button>
+        </div>
+
+        <h2>Task for the day</h2>
+
+        <div class="select">
+            <div class="filter-todo">
+                <label for="">filter tasks</label>
+                <select name="todos" class="filter-todo">
+                    <option value="all">All</option>
+                    <option value="completed">Completed</option>
+                    <option value="incomplete">Incomplete</option>
+                </select>
+            </div>
+            <button class="clear-btn">clear all</button>
+        </div>
+        
+        <div class="task-show">
+            <ul class="task-list">
+                <!-- <li class="description-task">
+                    <label for="">
+                        <input type="checkbox" >
+                        <p>dddddddddd</p>
+                    </label>
+                    <div class="settings">
+                        <i class="fas fa-ellipsis-h"></i>
+                        <ul class="ul-menu">
+                            <li><i class="fas fa-pencil-alt"></i>Edit</li>
+                            <li><i class="fas fa-trash-alt"></i>Delete</li>
+                        </ul>
+                    </div>
+                </li> -->
+            </ul>
+        </div>
+        
+    </div>
+    <div>qwe</div>
+
+    <script src="https://kit.fontawesome.com/90854caa6e.js" crossorigin="anonymous"></script>
+    <script src="todo-script.js"></script>
+</body> 
+</html>
